@@ -5,15 +5,7 @@
 */
 
 class Student {
-  public name: string;
-  public age: number;
-  public grade: string;
-
-  constructor(n: string, m: number) {
-    this.name = n;
-    this.age = m;
-    this.grade = n;
-  }
+  constructor(public name: string, public age: number, public grade: string) {}
 }
 
 export {};
